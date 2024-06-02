@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 # import plotly.express as px
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from datetime import datetime
 import os
 
@@ -231,17 +231,17 @@ def movie_finder_app():
                 st.divider()
 
     # Plots of Ratings and Votes
-    with tab2:
-        if len(movies_df) > 0:
-            fig, ax = plt.subplots()
-            ax.bar(movies_df['Title'], movies_df['IMDB Rating'])
-            ax.set_title("IMDB Ratings")
-            st.pyplot(fig)
+    # with tab2:
+    #     if len(movies_df) > 0:
+    #         fig, ax = plt.subplots()
+    #         ax.bar(movies_df['Title'], movies_df['IMDB Rating'])
+    #         ax.set_title("IMDB Ratings")
+    #         st.pyplot(fig)
 
-            fig, ax = plt.subplots()
-            ax.bar(movies_df['Title'], movies_df['IMDB Votes'])
-            ax.set_title("IMDB Votes")
-            st.pyplot(fig)
+    #         fig, ax = plt.subplots()
+    #         ax.bar(movies_df['Title'], movies_df['IMDB Votes'])
+    #         ax.set_title("IMDB Votes")
+    #         st.pyplot(fig)
 
 
 def home_page():
