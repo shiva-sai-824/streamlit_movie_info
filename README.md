@@ -48,7 +48,7 @@ To run this app locally, follow these steps:
 
 ## Credits
 
-- **OMDb API:** The Open Movie Database API is used to retrieve movie details.
+- **OMDb API:** The Open Movie Database API is used to retrieve movie details(https://www.omdbapi.com/).
 
 ## Author
 
