@@ -1,6 +1,3 @@
-Here's a suggested README.txt content for your GitHub repository to ensure users understand how to use your Streamlit movie information app:
-
----
 
 # Movie Information Streamlit App
 
