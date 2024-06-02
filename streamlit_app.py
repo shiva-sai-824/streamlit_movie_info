@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-import plotly.express as px
+# import plotly.express as px
 import matplotlib.pyplot as plt
 from datetime import datetime
 import os
