@@ -172,7 +172,7 @@ def movie_finder_app():
                 st.warning("No movie found for the specified criteria.")
 
     # Setup tabs
-    tab1, tab2 = st.tabs(["Search Results", "Ratings and Votes"])
+    tab1 = st.tabs(["Search Results"])
 
     # Search Results: List of movie details
     with tab1:
